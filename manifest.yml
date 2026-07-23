@@ -1,0 +1,17 @@
+plugin:
+  name: fylr-plugin-orcid
+  version: "1.0"
+  url: https://github.com/programmfabrik/fylr-plugin-orcid
+  displayname:
+    de-DE: ORCID
+    en-US: ORCID
+  info:
+    de-DE: |
+      Ermöglicht das Hinterlegen einer ORCID id im Benutzerkonto und verknüpft so jeden Nutzer mit seinem Forschendenprofil. Damit werden Nutzer mit ihrer dauerhaften Kennung bei [ORCID](https://orcid.org/) verbunden.
+    en-US: |
+      Lets you store an ORCID id in a user account, connecting each user to their researcher profile. This links users to their persistent identifier on [ORCID](https://orcid.org/).
+  l10n: l10n/fylr-plugin-orcid.csv
+  webfrontend:
+    url: fylr-plugin-orcid.js
+
+base_url_prefix: "webfrontend"

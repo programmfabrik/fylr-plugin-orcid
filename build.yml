@@ -1,0 +1,19 @@
+# Build configuration for fylr-build-plugin — the explicit build description.
+# Delivered files are listed here; "check" (runs with every build) warns when
+# a manifest reference is missing from the build folder.
+# All features: https://github.com/programmfabrik/fylr-build-plugin
+
+server:
+  install:
+    - l10n
+
+webfrontend:
+  # CoffeeScript 1.x, compiled + concatenated in this order into
+  # plugin.webfrontend.url (webfrontend/fylr-plugin-orcid.js)
+  coffee1:
+    - webfrontend/OrcidUserPlugin.coffee
+
+loca:
+  - csv: l10n/fylr-plugin-orcid.csv
+    sheet: 1NKexuEkN_JrG7Bp5C4b_VLUxSCYryY4VC3P3Hn_4yGo
+    gid: 0

@@ -1,0 +1,8 @@
+key,de-DE,R,en-US,R,da-DK,R,fi-FI,R,sv-SE,R,fr-FR,R,it-IT,R,es-ES,R,cs-CZ,R,pl-PL,R,ru-RU,R,uz-UZ,R
+orcid.user.plugin.tab-text,ORCID,FALSE,ORCID,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.id.label,ORCID,FALSE,ORCID,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.id.hint.md,0000-000X-XXXX-XXXX,FALSE,0000-000X-XXXX-XXXX,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.url.label,URL,FALSE,URL,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.url.not-valid.md,The entered ID is not valid. [Click here](https://support.orcid.org/hc/en-us/articles/360006897674) for more details about the format of the ID.,FALSE,The entered ID is not valid. [Click here](https://support.orcid.org/hc/en-us/articles/360006897674) for more details about the format of the ID.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.url.empty.md,For example: [0000-0002-1825-0097](https://orcid.org/0000-0002-1825-0097). [Click here](https://support.orcid.org/hc/en-us/articles/360006897674) for more details about the format of the ID.,FALSE,For example: [0000-0002-1825-0097](https://orcid.org/0000-0002-1825-0097). [Click here](https://support.orcid.org/hc/en-us/articles/360006897674) for more details about the format of the ID.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+orcid.user.plugin.form.url.link.md,%(url)s,FALSE,%(url)s,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
