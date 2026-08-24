@@ -8,10 +8,12 @@ server:
     - l10n
 
 webfrontend:
-  # CoffeeScript 1.x, compiled + concatenated in this order into
-  # plugin.webfrontend.url (webfrontend/fylr-plugin-orcid.js)
-  coffee1:
-    - webfrontend/OrcidUserPlugin.coffee
+  # assembled into plugin.webfrontend.url, in this order:
+  # .coffee is compiled (CoffeeScript 1.x), .scss compiled,
+  # anything else taken verbatim
+  bundles:
+    - sources:
+        - webfrontend/OrcidUserPlugin.coffee
 
 loca:
   - csv: l10n/fylr-plugin-orcid.csv
